@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+}
+.intro {
+  background-image: url("./images/bg-intro.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
