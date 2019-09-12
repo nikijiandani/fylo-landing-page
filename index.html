@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway:700&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="icon"
       type="image/png"
@@ -28,42 +31,37 @@
   <body>
     <section class="intro">
       <nav>
-        <img src="./images/logo.svg" alt="logo" />
-        <section>
+        <img class="logo" src="./images/logo.svg" alt="logo" />
+        <section class="menu-links">
           <a href="#"><i class="fab fa-twitter"></i></a>
           <a href="#"><i class="fab fa-facebook-f"></i></a>
           <a href="#"><i class="fas fa-envelope"></i></a>
         </section>
       </nav>
-      <img src="./images/illustration-main.svg" alt="illustration-main" />
+      <img
+        id="illustration"
+        src="./images/illustration-main.svg"
+        alt="illustration-main"
+      />
     </section>
+    <main class="container">
+      <h3>
+        All your files in one secure location, accessible anywhere.
+      </h3>
 
-    <h3>
-      All your files in one secure location, accessible anywhere.
-    </h3>
-
-    <p>
-      Fylo stores all your most important files in one secure location. Access
-      them wherever you need, share and collaborate with friends, family and
-      co-workers.
-    </p>
-
-    <form>
-      <label for="signup">Sign up for early access</label>
-      <input type="text" name="signup" />
-      <button>Sign Up</button>
-    </form>
-
-    <a href="#">Privacy Policy</a>
-
-    <footer>
-      <p class="attribution">
-        This page started life as a challenge on
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >
-        🎉
+      <p>
+        Fylo stores all your most important files in one secure location. Access
+        them wherever you need, share and collaborate with friends, family and
+        co-workers.
       </p>
-    </footer>
+
+      <form>
+        <label for="signup">Sign up for early access</label>
+        <input type="text" name="signup" />
+        <button>Sign Up</button>
+      </form>
+
+      <a href="#">Privacy Policy</a>
+    </main>
   </body>
 </html>
